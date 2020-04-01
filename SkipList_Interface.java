@@ -27,6 +27,7 @@ package SKPLIST_A4;
             it and return true (success); size decreases by one
             if the element being looked for is not in the skiplist, return false and
             make no change to the skiplist state
+
   contains:
     in: a double (the element to be seaarched for)
     return: boolean, return true if the double being looked for is in the skiplist;
@@ -44,7 +45,7 @@ package SKPLIST_A4;
     in: none
     return: double, the element value from the skiplist that is largest
     effect: no skiplist state change
-    error: is skiplist size is 0, return Double.NaN
+    error: if skiplist size is 0, return Double.NaN
 
   size:
     in: nothing
